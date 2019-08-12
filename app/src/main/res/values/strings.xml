@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GodzinyKalkulator</string>
+    <string name="ilo_dni">Ilość dni</string>
+    <string name="stawka">Stawka</string>
+    <string name="r_nica_godzin">Różnica Godzin -/+</string>
+    <string name="przelicz">Przelicz</string>
+    <string name="zero">0</string>
+</resources>
