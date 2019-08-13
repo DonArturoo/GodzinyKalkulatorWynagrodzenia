@@ -5,7 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        app:errorEnaabled="true">
+        
+        <android.support.design.widget.TextInputEditText
+            android:layout_widt="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Godziny"                                             
+            android:inputType="NumberDecimal"/>
+        
+    </android.support.design.widget.TextInputLayout>
 
     <EditText
         android:id="@+id/ileDni"
